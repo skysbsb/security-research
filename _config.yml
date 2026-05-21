@@ -1,0 +1,32 @@
+title: Security Research
+description: Security research, vulnerability disclosures, and thoughts on AI-assisted cybersecurity
+baseurl: "/security-research"
+url: "https://skysbsb.github.io"
+
+theme: minima
+
+author:
+  name: skysbsb
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /:categories/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+header_pages:
+  - about.md
